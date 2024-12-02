@@ -1,0 +1,8 @@
+default: &default
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 100 } %>
+
+development:
+  url: postgres://postgres@127.0.0.1:5432/event_app-development
+
+test:
+  url: postgres://postgres@127.0.0.1:5432/event_app-test
