@@ -77,6 +77,10 @@ available = [
 
 ### Access api
 
+```
+rails s
+```
+
 ##### Create user
 ```
 Url: POST http://localhost:3000/users
